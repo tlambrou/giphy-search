@@ -2,7 +2,7 @@
   "name": "giphy-search",
   "version": "1.0.0",
   "description": "Small app that uses the giphy search api to display animated gifs from the giphy.com website",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,9 @@
     "tutorial"
   ],
   "author": "Tassos Lambrou",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.1",
+    "express-handlebars": "^3.0.0"
+  }
 }
